@@ -27,6 +27,7 @@ body {
     align-items: center;
     flex-wrap: wrap;
     gap: 0.5rem;
+    grid-area: header;
 }
 
 .header__box {
@@ -40,6 +41,7 @@ body {
     width: 100%;
     background-color: #FD96A9;
     margin-top: 1rem;
+    grid-area: aside-left;
 }
 
 .main-content {
@@ -47,6 +49,7 @@ body {
     width: 100%;
     background-color: #FD96A9;
     margin-top: 1rem;
+    grid-area: main-content;
 }
 
 .aside-right {
@@ -54,6 +57,7 @@ body {
     width: 100%;
     background-color: #FD96A9;
     margin-top: 1rem;
+    grid-area: aside-right;
 }
 
 .footer {
@@ -61,6 +65,7 @@ body {
     width: 100%;
     background-color: #C1C89A;
     margin-top: 1rem; 
+    grid-area: footer;
 }
 
 @media screen and (min-width: 812px) {
